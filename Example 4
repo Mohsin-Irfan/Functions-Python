@@ -1,0 +1,7 @@
+#   Write a Python program to print the calendar of a given month and year.
+# Note : Use 'calendar' module.
+
+import calendar
+a = int(input("Enter the year: "))
+b = int(input("Enter the month: "))
+print(calendar.month(a,b))
