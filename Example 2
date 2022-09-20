@@ -1,0 +1,11 @@
+def myfunc(MyList):
+  MyList = ["Mercedes","Volvo",'BMW','Lamorghini','FORD','Fortuner','Land Cruiser','Soneta','Elantra','Vigo']
+  print("Car List: ", MyList)
+  i = input("Enter car name: ")
+  if i in MyList:
+    print("It is present in the list")
+  else:
+    print("It is not present in the list\nSNow Append this value in Car List So, ")
+    MyList.append(i)
+    print("New Car List: ", MyList)
+myfunc(["Mercedes","Volvo",'BMW','Lamorghini','FORD','Fortuner','Land Cruiser','Soneta','Elantra','Vigo'])
