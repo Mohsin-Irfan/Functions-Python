@@ -1,0 +1,9 @@
+# Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.
+# n=int(input("Enter a number n: "))
+
+q = int(input("Enter a number : "))
+p = str(q)
+t1 = p+p
+t2 = p+p+p
+comp = q + int(t1) + int(t2)
+print("The value is:",comp)
